@@ -9,4 +9,4 @@ spec:
     - name: sql
       port: 1433  
       targetPort: 1433
-  type: NodePort  
+  type: ClusterIP  

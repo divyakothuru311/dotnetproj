@@ -6,7 +6,7 @@ metadata:
   labels:
     env: dev
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: rabbitmq
   ports:
